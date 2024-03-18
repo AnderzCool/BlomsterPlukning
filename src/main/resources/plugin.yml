@@ -1,3 +1,14 @@
 name: BlomsterPlukning
 version: '${version}'
 main: dk.anderz.blomsterplukning.BlomsterPlukning
+authors: [_Anderz_]
+depend:
+  - WorldGuard
+  - WorldEdit
+
+commands:
+  blomster:
+    usage: /blomster <args>
+    aliases: [blomst]
+    permission: blomster.command
+    permission-message: You don't have permission to use this command.

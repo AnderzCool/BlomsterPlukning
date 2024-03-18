@@ -1,0 +1,10 @@
+blomster:
+  menu:
+    name: "&8&l[ &6&lBLOMSTER &8&l]"
+    item:
+      lore:
+        - ""
+        - "&8&l▎ &7Tryk her for at"
+        - "&8&l▎ &7købe en blomster hakke."
+        - ""
+        - "&8&l【 &7Pris: &a$&f{pris} &8&l】"

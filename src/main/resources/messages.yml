@@ -1,0 +1,17 @@
+prefix: "&8&l[ &6&lBLOMSTER &8&l] \n&7"
+
+blomster:
+  reload:
+    successful: "&6Blomster &8» &7Reloading config... &8({ms}ms)"
+    unsuccessful: "&6Blomster &8» &cDer opstod en fejl: &7{error}"
+  shop:
+    successful: "{prefix} Du købte en {item} &7for &a&l$&f{pris}"
+    no-money: "{prefix} Du har ikke nok penge."
+    vagt: "{prefix} Dette har du ikke adgang til."
+  event:
+    no-flower:
+      - "{prefix} Ingen blomst denne gang, dog fik du:"
+      - "&8» &a$&f{money}"
+    broadcast: "{prefix} Spilleren &e{player} &7har lige plukket en blomst!"
+    fail: "{prefix} Du fejlede plukningen."
+
