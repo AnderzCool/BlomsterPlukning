@@ -1,0 +1,3 @@
+name: BlomsterPlukning
+version: '${version}'
+main: dk.anderz.blomsterplukning.BlomsterPlukning
