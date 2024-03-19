@@ -96,7 +96,7 @@ public class FlowerEvent implements Listener {
                     return;
                 }
                 secondsLeft--;
-                ActionBar.sendActionbar(player, "§6§l[!] §7Plukker blomst: §f" + String.valueOf(Math.floor(100.0 - (secondsLeft * 100.0 / 39))).replace(".0", "") + "%");
+                ActionBar.sendActionbar(player, Messages.get("blomster.event.actionbar", "\\{time\\}", String.valueOf(Math.floor(100.0 - (secondsLeft * 100.0 / 39))).replace(".0", ""))[0]);
 
             }
         }.runTaskTimer(BlomsterPlukning.instance, 5L, 5L).getTaskId();

@@ -14,4 +14,5 @@ blomster:
       - "&8» &a$&f{money}"
     broadcast: "{prefix} Spilleren &e{player} &7har lige plukket en blomst!"
     fail: "{prefix} Du fejlede plukningen."
+    actionbar: "&6&l[!] &7Plukker blomst: &f{time}%"
 
