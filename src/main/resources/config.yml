@@ -1,6 +1,6 @@
 NPC:
-  BlomsterMenu: "52"
-  BlomsterByenMenu: "53"
+  BlomsterMenu: "20"
+  BlomsterByenMenu: "35"
 
 
 Blomster:
@@ -8,7 +8,7 @@ Blomster:
     - "vvf"
     - "flower"
   chat-prefix: "&8&l[ &6&lBLOMSTER &8&l]"
-  chance: 1 # 1 = 0.1% (out of 1000)
+  chance: 1
   toolName: "&bBlomster Hakke"
   toolPrize: 5000
   gui:

@@ -79,7 +79,6 @@ public class FlowerEvent implements Listener {
                         short randomFlowerDataValue = flowerDataValues[randomIndex];
                         ItemStack flower = new ItemStack(Material.RED_ROSE, 1, randomFlowerDataValue);
                         player.getInventory().addItem(flower);
-
                         Bukkit.getScheduler().runTask(BlomsterPlukning.instance, () -> {
                             Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "logs add item-RED_ROSE:" + randomFlowerDataValue + " 1");
                         });
